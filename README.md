@@ -27,6 +27,7 @@ El proyecto carga las peliculas y las series realizando un fetch directamente so
 Utilizo el mismo comoponente parametrizado ya que la funcionalidad es la misma para cargar tanto peliculas como series.
 Se pueden filtrar los datos por año 
 Se pueden mostrar un numero determinado de items.
+No he creido conveniente usar REDUX ya que no considero que haya un estado global a mantener.
 
 
 
