@@ -3,7 +3,7 @@
 ## Poner el proyecto en marcha
 
 Acceder a la carpeta del proyecto y ejecutar
-
+### `npm install`
 ### `npm start`
 
 Ejecuta la aplicación en modo de desarrollo.
