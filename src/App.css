@@ -1,0 +1,144 @@
+/* clase header de fondo azul */
+header {
+  background-color: #075a81;
+  height: 60px;
+  width: 100%;
+  max-width: 150%;
+
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+header h1{
+  margin-left: 65px;
+}
+
+header nav{
+  margin-right: 65px;
+}
+
+.secciones{
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.ContenedorMoviesSeries{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 50%;
+}
+
+.moviesSeries{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ 
+  width: 100%;
+  gap: 32px;
+}
+
+.movieSerie {
+  text-align: center;
+}
+
+.movieSerie h3{
+
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: 10px;
+}
+
+
+.movieSerie img{
+  width: 60%; 
+  border-radius: 10px;
+}
+
+
+
+
+.list{
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ 
+  width: 100%;
+  gap: 32px;
+}
+
+.listItem {
+  text-align: center; 
+}
+
+.listItem:hover {
+  opacity: 0.3; /* Reducir la opacidad a 80% */
+  border: 2px solid white; /* Mostrar un borde sólido de 2px de ancho en color blanco */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.listItem h3, .movie p {
+  margin: 0;
+}
+
+.listItem img {
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* css para un popup */
+.popup {
+  /* popup pequeño alineado al centro */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 44%;
+  height: 40%;
+  border-radius:15px;
+  background-color: rgb(9, 44, 75);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+/* media query para pantallas pequeñas o medianas */
+@media screen and (max-width: 768px) {
+  .popup {
+    width: 84%;
+    height: 40%;
+  }
+}
