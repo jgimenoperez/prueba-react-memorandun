@@ -20,6 +20,7 @@ Carga de una pelicula/serie a través de parametros.
 Trataria de aumentar la legibilidad del codigo separando la logica en useHooks.
 Mejoraria el diseño visual.
 Realizar test unitarios con jest.
+Añadiria controles sobre los filtros de tal manera que si no hay nada seleccionado mostraria unos valores por defecto.
 
 ### Comentarios sobre el proyecto.
 El proyecto carga las peliculas y las series realizando un fetch directamente sobre el json.
